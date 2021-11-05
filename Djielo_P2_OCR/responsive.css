@@ -1,0 +1,261 @@
+/* TABLETTE */
+@media only screen and (max-width: 992px) {
+  /* HEADER */
+  header {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .logo {
+    align-self: center;
+  }
+
+  .naviagtion nav {
+    order: 3;
+  }
+
+  .navigation nav ul {
+    width: 100%;
+  }
+
+  .navigation nav li {
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #f2f2f2;
+  }
+
+  .navigation nav li a {
+    padding: inherit;
+  }
+
+  .navigation nav li a:hover {
+    border-top: none;
+  }
+
+  .navigation nav li:hover {
+    border-bottom-color: #0065fc;
+  }
+
+  .nav_ul {
+    font-size: 1.2rem;
+  }
+
+  /* RESEARCH */
+
+  /* LODGING & POPULAR */
+
+  .inverse_pop_lod:first-child {
+    order: 2;
+  }
+
+  .inverse_pop_lod:nth-child(2) {
+    order: 1;
+  }
+
+  .lodging_popular_section {
+    flex-direction: column;
+  }
+
+  .popular,
+  .lodging {
+    width: 98%;
+  }  
+
+  .lod_card {
+    width: 98%;
+  }  
+
+  .pop_card {
+    width: auto;
+  }  
+
+.pop_card_img img {
+  aspect-ratio: 5/6;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+  min-width: 400px;
+}
+
+.pop_details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: initial;
+  width: 55%;
+}
+
+  /* ACTIVITY */
+
+  .activity_all {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    height: max-content;
+    align-items: center;
+  }
+
+  .act_card_col {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 98%;
+  }
+
+  .act_card_big {
+    width: 98%;
+  }
+  .act_card_medium {
+    height: 49%;
+  }
+  .act_card_small {
+    height: 49%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 98%;
+    height: 220px;
+    background-color: #ffffff;
+  }
+  .card_title {
+    font-weight: bold;
+    line-height: 1;
+    padding: 0 20px;
+  }
+  .card_img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    flex-grow: 1;
+  }
+  .card_img img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* FOOTER */
+
+  .ft_bg_ext {    
+    flex-direction: column;    
+  }
+
+  .ul_fr {
+    min-width: 400px; 
+}
+
+/* MOBILE 768 */
+
+@media only screen and (max-width: 768px) {
+  /* GENERAL */
+
+  h1 {
+    font-size: xx-large;
+  }
+
+  .eco_filter,
+  .fam_filter,
+  .rom_filter,
+  .pet_filter {
+    font-size: 1.3rem;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  h4,
+  p,
+  input {
+    font-size: 1.4rem;
+  }
+
+  a,
+  .research_position {
+    font-size: 1.5rem;
+  }
+
+  /* HEADER */
+
+  header {
+    margin: 0;
+    flex-direction: column;
+    height: 200px;
+  }
+
+  .logo {
+    align-self: center;
+  }
+
+  nav {
+    order: 3;
+  }
+
+  nav ul {
+    width: 100%;
+  }
+
+  nav li {
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #f2f2f2;
+  }
+
+  nav li a {
+    padding: inherit;
+  }
+
+  nav li a:hover {
+    border-top: none;
+  }
+
+  nav li:hover {
+    border-bottom-color: #0065fc;
+  }
+
+  /* RESEARCH */
+
+  .research_icon {
+    background-color: #0065fc;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fa-search {
+    display: initial;
+  }
+
+  .position_bg_search {
+    display: none;
+  }
+
+  /* POPULAR */
+
+  .pop_card_img img {    
+    max-height: 280px;    
+  }
+  .pop_details {    
+    width: 75%;
+  }
+
+  /* LODGING */
+
+  .lod_card_img img {
+    min-height: 220px;
+  }
+}
